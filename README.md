@@ -122,9 +122,9 @@ import { createFileRoute } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/')({
   component: () => (
-    <div className="text-center">
-      <h1 className="text-4xl font-black">PASIÓN Y TRADICIÓN</h1>
-      <p>Bienvenido al Club de Remo.</p>
+    <div>
+      <h1 className="titulo-grande">PASIÓN Y TRADICIÓN</h1>
+      <p>Bienvenido al Club de Remo La Cala.</p>
     </div>
   ),
 })
