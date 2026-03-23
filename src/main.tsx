@@ -1,10 +1,12 @@
 import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
-import { RouterProvider, createRouter } from '@tanstack/react-router'
+import { RouterProvider, createRouter, createHashHistory } from '@tanstack/react-router'
 
 import { routeTree } from './routeTree.gen'
 
-const router = createRouter({ routeTree })
+const history = createHashHistory()
+
+const router = createRouter({ routeTree, history })
 
 declare module '@tanstack/react-router' {
   interface Register {
