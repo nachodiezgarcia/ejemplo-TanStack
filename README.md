@@ -1,6 +1,12 @@
 # Ejemplo de como usar TanStack
 
-Lo primero de todo que tú ya has hecho
+## Antes de nada el ejemplo base desplegado en SPA
+
+Esta guía detalla el proceso de configuración de TanStack Router en una Single Page Application (SPA) utilizando React y TypeScript. El objetivo es lograr un sistema de navegación robusto, con tipado fuerte y generación automática de rutas.
+
+Demo en vivo: [Explorar ejemplo desplegado "SPA_ejmTanStack"](https://nachodiezgarcia.github.io/ejemplo-TanStack/)
+
+## Lo primero de todo que tú ya has hecho "Iniciación del Entorno :)"
 
 ```bash
     npm create vite@latest proyecto-remo -- --template react-ts
