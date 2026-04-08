@@ -6,6 +6,8 @@ Esta guía detalla el proceso de configuración de TanStack Router en una Single
 
 Demo en vivo: [Explorar ejemplo desplegado "SPA_ejmTanStack"](https://nachodiezgarcia.github.io/ejemplo-TanStack/)
 
+El mismo ejemplo de enrutado pero desplegado sin SPA: [NON-SPA_ejmTanStack](https://github.com/nachodiezgarcia/ejemplo-TanStack--NON_SPA-)
+
 ## Lo primero de todo que tú ya has hecho "Iniciación del Entorno :)"
 
 ```bash
